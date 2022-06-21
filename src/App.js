@@ -1,23 +1,11 @@
-import logo from './logo.svg';
+// Remove the logo, we don't need it anymore
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App App-header"> {/* Move App-Header from the header className to this div's className */}
+      {/* Delete the entire header component. We don't need it...*/}
+      <p>Character Profile</p> {/* Every masterpiece starts with a paragraph element */}
     </div>
   );
 }
